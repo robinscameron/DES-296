@@ -36,10 +36,24 @@ h1
   color:rgb(0, 153, 255)
 }
 
+a { color:rgb(0, 153, 255);
+    text-decoration: none;
+    border-bottom: rgb(0, 153, 255) 0.125em solid;
+}
+
+
 
 .top {
     margin:20px;
     padding:20px;
-    width:100vh;
-      background-color: rgb(255, 230, 0)
+    width:100;
+      background-color: rgb(255, 243, 132)
     }
+
+    .projects {
+        margin:20px;
+        padding:40px;
+        width:100;
+          background-color: rgb(255, 211, 89)
+        }
+    
