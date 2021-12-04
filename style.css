@@ -89,3 +89,21 @@ ol {
                 display: grid;
                 grid-template-columns: 200px, auto;
             }
+
+
+            /* Querey */
+
+@media screen and (max-width: 650px) {
+  html,
+  body, 
+  p,
+  .h1 {
+    font-size: 12px;
+    line-height: 1.1;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
+  }
+  
+} 
