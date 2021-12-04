@@ -80,10 +80,10 @@ ol {
 
                 width: auto;
                 height: auto;
-                border-top:1px solid white;
+                border-top:rgb(0, 153, 255) 0.125em solid;
                 padding: 10px 10px 10px 10px;
-                border-right: 1px solid white;
-                border-left: 1px solid white;
+                border-right: rgb(0, 153, 255) 0.125em solid;
+                border-left: rgb(0, 153, 255) 0.125em solid;
               
                 display: grid;
                 grid-template-columns: 200px, auto;
