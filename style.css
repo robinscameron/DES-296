@@ -88,12 +88,13 @@ ol {
               border-bottom: rgb(0, 153, 255) 0.125em solid;
                 display: grid;
                 grid-template-columns: 200px, auto;
+               
             }
 
 
             .last-row {
                 margin:20px;
-                padding:40px;
+                padding:50px;
                 
             border-top:rgb(255, 185, 119) 0.125em solid;
             border-right: rgb(255, 185, 119) 0.125em solid;
@@ -102,9 +103,16 @@ ol {
               padding: 10px 10px 10px 10px;
               display: grid;
               grid-template-columns: 200px, auto;
-              color:rgb(255, 153, 58);
               
+            
+        
 
+            }
+
+            p.row-research {
+              
+                max-width: 700px;
+                color:rgb(255, 153, 58);
             }
 
 
