@@ -41,6 +41,16 @@ a { color:rgb(0, 153, 255);
     border-bottom: rgb(0, 153, 255) 0.125em solid;
 }
 
+p span {
+display: block;
+
+}
+
+ol {
+  
+    margin-left: 20px;
+  }
+  
 
 
 .top {
@@ -57,3 +67,24 @@ a { color:rgb(0, 153, 255);
           background-color: rgb(255, 211, 89)
         }
     
+
+        .schedule {
+            margin:20px;
+            padding:40px;
+            width:100;
+              background-color: rgb(255, 185, 119)
+            }
+        
+
+            .row {
+
+                width: auto;
+                height: auto;
+                border-top:1px solid white;
+                padding: 10px 10px 10px 10px;
+                border-right: 1px solid white;
+                border-left: 1px solid white;
+              
+                display: grid;
+                grid-template-columns: 200px, auto;
+            }
