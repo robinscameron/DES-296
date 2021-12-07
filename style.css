@@ -202,7 +202,7 @@ ol {
     line-height: 1.1;
   }
 
-  .row {
+  .container {
     grid-template-columns: 1fr;
   }
   
