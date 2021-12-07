@@ -91,33 +91,72 @@ ol {
                
             }
 
+       
 
-            .last-row {
+            .last-row, 
+            .row-four, 
+            .row-five, 
+            .row-six, 
+            .row-seven { 
                 margin:20px;
                 padding:50px;
                 
-            border-top:rgb(255, 185, 119) 0.125em solid;
+            border-top:rgb(255, 196, 119) 0.125em solid;
             border-right: rgb(255, 185, 119) 0.125em solid;
                 border-left: rgb(255, 185, 119) 0.125em solid;
               border-bottom: rgb(255, 185, 119) 0.125em solid;
               padding: 10px 10px 10px 10px;
               display: grid;
               grid-template-columns: 200px, auto;
-              
+                        
             
         
 
             }
 
+            .row-eight, .row-nine, .row-ten { 
+                margin:20px;
+                padding:50px;
+                
+            border-top:rgb(255, 243, 132) 0.125em solid;
+            border-right: rgb(255, 243, 132) 0.125em solid;
+                border-left: rgb(255, 243, 132) 0.125em solid;
+              border-bottom: rgb(255, 243, 132) 0.125em solid;
+              padding: 10px 10px 10px 10px;
+              display: grid;
+              grid-template-columns: 200px, auto;
+                        
+        
+            }
+
+            .row-eleven, .row-twelve, .row-thirteen, .row-fourteen, .row-fifteen { 
+                margin:20px;
+                padding:50px;
+                
+            border-top:rgb(255, 211, 89) 0.125em solid;
+            border-right: rgb(255, 211, 89) 0.125em solid;
+                border-left: rgb(255, 211, 89) 0.125em solid;
+              border-bottom: rgb(255, 211, 89)0.125em solid;
+              padding: 10px 10px 10px 10px;
+              display: grid;
+              grid-template-columns: 200px, auto;
+                        
+            
+        
+
+            }
+
+
+            
             p.row-research {
               
                 max-width: 700px;
-                color:rgb(255, 153, 58);
+                color:rgb(0, 153, 255);
             }
 
 
             a.research {
-                color:rgb(255, 153, 58);
+                color:rgb(0, 153, 255);
                 text-decoration: none;
                 border-bottom: rgb(255, 185, 119) 0.125em  solid;
 
@@ -130,7 +169,7 @@ ol {
   body, 
   p,
   .h1 {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.1;
   }
 
