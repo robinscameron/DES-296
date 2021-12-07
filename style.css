@@ -96,8 +96,8 @@ ol {
                 border-top:rgb(0, 153, 255) 0.125em solid;
                 padding: 10px 10px 10px 10px;
                 border-right: rgb(0, 153, 255) 0.125em solid;
-                border-left: rgb(0, 153, 255) 0.125em solid;
-              border-bottom: rgb(0, 153, 255) 0.125em solid;
+                border-left: rgb(0, 153, 255) 1em solid;
+              border-bottom: rgb(0, 153, 255) 1em solid;
                 display: grid;
                 grid-template-columns: 200px, auto;
                
@@ -105,11 +105,29 @@ ol {
 
        
 
-            .last-row, 
+            
             .row-four, 
             .row-five, 
             .row-six, 
             .row-seven { 
+                margin:20px;
+                padding:50px;
+                
+            border-top:rgb(255, 196, 119) 0.125em solid;
+            border-right: rgb(255, 185, 119) 0.125em solid;
+                border-left: rgb(255, 185, 119) 1em solid;
+              border-bottom: rgb(255, 185, 119) 1em solid;
+              padding: 10px 10px 10px 10px;
+              display: grid;
+              grid-template-columns: 200px, auto;
+                        
+            
+        
+
+            }
+
+            .last-row {
+
                 margin:20px;
                 padding:50px;
                 
@@ -123,7 +141,6 @@ ol {
                         
             
         
-
             }
 
             .row-eight, .row-nine, .row-ten { 
@@ -132,8 +149,8 @@ ol {
                 
             border-top:rgb(255, 243, 132) 0.125em solid;
             border-right: rgb(255, 243, 132) 0.125em solid;
-                border-left: rgb(255, 243, 132) 0.125em solid;
-              border-bottom: rgb(255, 243, 132) 0.125em solid;
+                border-left: rgb(255, 243, 132) 1em solid;
+              border-bottom: rgb(255, 243, 132) 1em solid;
               padding: 10px 10px 10px 10px;
               display: grid;
               grid-template-columns: 200px, auto;
@@ -147,8 +164,8 @@ ol {
                 
             border-top:rgb(255, 211, 89) 0.125em solid;
             border-right: rgb(255, 211, 89) 0.125em solid;
-                border-left: rgb(255, 211, 89) 0.125em solid;
-              border-bottom: rgb(255, 211, 89)0.125em solid;
+                border-left: rgb(255, 211, 89) 1em solid;
+              border-bottom: rgb(255, 211, 89) 1em solid;
               padding: 10px 10px 10px 10px;
               display: grid;
               grid-template-columns: 200px, auto;
