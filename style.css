@@ -47,6 +47,13 @@ display: block;
 
 }
 
+.weeks
+{
+  max-width: 700px;
+
+}
+
+
 ol {
   
     margin-left: 20px;
